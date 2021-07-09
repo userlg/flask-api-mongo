@@ -3,7 +3,7 @@ from app import app
 
 @app.route('/')
 def home():
-    return '<h1> Welcome to the home </h1>'
+    return '<h1> Welcome to the home route </h1>'
 
 
 @app.route('/about')

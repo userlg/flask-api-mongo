@@ -9,3 +9,4 @@ def home():
 @app.route('/about')
 def about():
     return '<h1> This is about route </h1>'
+
